@@ -1,0 +1,11 @@
+modelVersion: 4.0.0
+artifactId: samples-kotlin-1.2-polyglot
+
+parent: { groupId: io.skullabs.boilerplates, artifactId: kotlin-1.2, version: 1.0.0-SNAPSHOT }
+
+dependencies:
+- { groupId: org.jetbrains.kotlin,    artifactId: kotlin-stdlib-jdk8 }
+- { groupId: org.jetbrains.kotlin,    artifactId: kotlin-test-junit }
+- { groupId: org.junit.jupiter,       artifactId: junit-jupiter-engine }
+- { groupId: io.skullabs.kikaha,      artifactId: kikaha-injection-processor, version: 2.1.6.Final, scope: provided }
+- { groupId: io.skullabs.kikaha,      artifactId: kikaha-injection, version: 2.1.6.Final }
