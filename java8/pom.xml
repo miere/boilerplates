@@ -3,9 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.skullabs.boilerplates</groupId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <artifactId>java-8</artifactId>
     <name>Java 8 Simplified Project</name>
+    <description>Java 8 Simplified Project</description>
     <packaging>pom</packaging>
 
     <url>https://github.com/Skullabs/boilerplates</url>
@@ -104,10 +105,6 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
